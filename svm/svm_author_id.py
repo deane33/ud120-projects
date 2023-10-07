@@ -7,10 +7,8 @@
     Sara has label 0
     Chris has label 1
 """
-    
 import sys
 from time import time
-sys.path.append("../tools/")
 from email_preprocess import preprocess
 
 
@@ -22,6 +20,7 @@ features_train, features_test, labels_train, labels_test = preprocess()
 
 #########################################################
 ### your code goes here ###
+#https://scikit-learn.org/stable/modules/svm.html
 
 
 #########################################################
